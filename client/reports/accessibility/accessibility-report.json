@@ -1,0 +1,628 @@
+{
+  "errors": 1,
+  "warnings": 36,
+  "notices": 19,
+  "files": [
+    {
+      "index": 1,
+      "name": "E:/personal-projects/Angular-6-Starter/src/app/app.component.html",
+      "errors": 0,
+      "warnings": 0,
+      "notices": 0,
+      "errorDetails": []
+    },
+    {
+      "index": 2,
+      "name": "E:/personal-projects/Angular-6-Starter/src/app/core/components/home/home.component.html",
+      "errors": 0,
+      "warnings": 10,
+      "notices": 5,
+      "errorDetails": [
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h1>\n    Welcome to {{ title }}!\n  </h1>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<p>This is the Home page</p>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 7,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h2>Please click on 'lazy loaded' in the Nav bar to load the Lazy loaded module and see the Details of Compliance report</h2>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 8,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.G94.Image",
+          "description": "Ensure that the img element's alt text serves the same purpose and presents the same information as the image.",
+          "element": "<img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 9,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.G73,G74",
+          "description": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+          "element": "<img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 9,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h2>Here are some links to help you start: </h2>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 11,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/tutorial\">Tour of Heroes</a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 14,
+            "columnNumber": 8
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+          "description": "Check that text of the link describes the purpose of the link.",
+          "element": "<a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/tutorial\">Tour of Heroes</a>",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 14,
+            "columnNumber": 8
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle3.Guideline3_2.3_2_5.H83.3",
+          "description": "Check that this link's link text contains information indicating that the link will open in a new window.",
+          "element": "<a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/tutorial\">Tour of Heroes</a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 14,
+            "columnNumber": 8
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/angular/angular-cli/wiki\">CLI Documentation</a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 17,
+            "columnNumber": 8
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+          "description": "Check that text of the link describes the purpose of the link.",
+          "element": "<a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/angular/angular-cli/wiki\">CLI Documentation</a>",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 17,
+            "columnNumber": 8
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle3.Guideline3_2.3_2_5.H83.3",
+          "description": "Check that this link's link text contains information indicating that the link will open in a new window.",
+          "element": "<a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/angular/angular-cli/wiki\">CLI Documentation</a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 17,
+            "columnNumber": 8
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 20,
+            "columnNumber": 8
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+          "description": "Check that text of the link describes the purpose of the link.",
+          "element": "<a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a>",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 20,
+            "columnNumber": 8
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle3.Guideline3_2.3_2_5.H83.3",
+          "description": "Check that this link's link text contains information indicating that the link will open in a new window.",
+          "element": "<a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 20,
+            "columnNumber": 8
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "E:/personal-projects/Angular-6-Starter/src/app/core/components/navbar/navbar.component.html",
+      "errors": 0,
+      "warnings": 8,
+      "notices": 4,
+      "errorDetails": [
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<a class=\"navbar-brand\" routerlink=\"/\">Angular-6-Starter</a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.A.Placeholder",
+          "description": "Anchor element found with link content, but no href, ID or name attribute has been supplied.",
+          "element": "<a class=\"navbar-brand\" routerlink=\"/\">Angular-6-Starter</a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+          "description": "Check that text of the link describes the purpose of the link.",
+          "element": "<a class=\"navbar-brand\" routerlink=\"/\">Angular-6-Starter</a>",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle3.Guideline3_2.3_2_1.G107",
+          "description": "Check that a change of context does not occur when this input field receives focus.",
+          "element": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<a class=\"nav-link\" routerlink=\"/\">Home<span class=\"sr-only\">(current)</span></a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.A.Placeholder",
+          "description": "Anchor element found with link content, but no href, ID or name attribute has been supplied.",
+          "element": "<a class=\"nav-link\" routerlink=\"/\">Home<span class=\"sr-only\">(current)</span></a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+          "description": "Check that text of the link describes the purpose of the link.",
+          "element": "<a class=\"nav-link\" routerlink=\"/\">Home<span class=\"sr-only\">(current)</span></a>",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<span class=\"sr-only\">(current)</span>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 12,
+            "columnNumber": 47
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<a class=\"nav-link\" routerlink=\"/lazy-load\">Lazy Loaded<span class=\"sr-only\">(current)</span></a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle4.Guideline4_1.4_1_2.H91.A.Placeholder",
+          "description": "Anchor element found with link content, but no href, ID or name attribute has been supplied.",
+          "element": "<a class=\"nav-link\" routerlink=\"/lazy-load\">Lazy Loaded<span class=\"sr-only\">(current)</span></a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+          "description": "Check that text of the link describes the purpose of the link.",
+          "element": "<a class=\"nav-link\" routerlink=\"/lazy-load\">Lazy Loaded<span class=\"sr-only\">(current)</span></a>",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<span class=\"sr-only\">(current)</span>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 12,
+            "columnNumber": 47
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "E:/personal-projects/Angular-6-Starter/src/app/core/components/spinner/spinner.component.html",
+      "errors": 0,
+      "warnings": 0,
+      "notices": 0,
+      "errorDetails": []
+    },
+    {
+      "index": 5,
+      "name": "E:/personal-projects/Angular-6-Starter/src/app/lazy-load/components/home/home.component.html",
+      "errors": 1,
+      "warnings": 17,
+      "notices": 8,
+      "errorDetails": [
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h1>This is the home component of Lazy loaded module</h1>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 2,
+            "columnNumber": 0
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_3.1_3_1_AAA.G141",
+          "description": "The heading structure is not logically nested. This h3 element should be an h2 to be properly nested.",
+          "element": "<h3>Compliance report cmd result</h3>",
+          "severity": "ERROR",
+          "position": {
+            "lineNumber": 5,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h3>Compliance report cmd result</h3>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 5,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.H67.2",
+          "description": "Img element is marked so that it is ignored by Assistive Technology.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/cmd.JPG\" alt=\"\">",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 6,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.G73,G74",
+          "description": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/cmd.JPG\" alt=\"\">",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 6,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h3>Compliance report Details</h3>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 9,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.H67.2",
+          "description": "Img element is marked so that it is ignored by Assistive Technology.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/compliance.JPG\" alt=\"\">",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 10,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.G73,G74",
+          "description": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/compliance.JPG\" alt=\"\">",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 10,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h3>Compliance report History</h3>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 13,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.H67.2",
+          "description": "Img element is marked so that it is ignored by Assistive Technology.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/history.JPG\" alt=\"\">",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 14,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.G73,G74",
+          "description": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/history.JPG\" alt=\"\">",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 14,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h3>Bundle Analyzer</h3>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 17,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.H67.2",
+          "description": "Img element is marked so that it is ignored by Assistive Technology.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/build.JPG\" alt=\"\">",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 18,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.G73,G74",
+          "description": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/build.JPG\" alt=\"\">",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 18,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h3>Accessibility HTML report</h3>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 21,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.H67.2",
+          "description": "Img element is marked so that it is ignored by Assistive Technology.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/accessibility.JPG\" alt=\"\">",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 22,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.G73,G74",
+          "description": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/accessibility.JPG\" alt=\"\">",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 22,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h3>TSLint HTML report</h3>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 25,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.H67.2",
+          "description": "Img element is marked so that it is ignored by Assistive Technology.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/tslint.JPG\" alt=\"\">",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 26,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.G73,G74",
+          "description": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/tslint.JPG\" alt=\"\">",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 26,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h3>JSCPD HTML report</h3>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 29,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.H67.2",
+          "description": "Img element is marked so that it is ignored by Assistive Technology.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/jscpd.JPG\" alt=\"\">",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 30,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.G73,G74",
+          "description": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/jscpd.JPG\" alt=\"\">",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 30,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<h3>Code Coverage Report</h3>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 33,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.H67.2",
+          "description": "Img element is marked so that it is ignored by Assistive Technology.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/unit test.JPG\" alt=\"\">",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 34,
+            "columnNumber": 2
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_1.1_1_1.G73,G74",
+          "description": "If this image cannot be fully described in a short text alternative, ensure a long text alternative is also available, such as in the body text or through a link.",
+          "element": "<img class=\"compliance-image\" src=\"assets/compliance-report/unit test.JPG\" alt=\"\">",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 34,
+            "columnNumber": 2
+          }
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "E:/personal-projects/Angular-6-Starter/src/assets/mock/test-resource.html",
+      "errors": 0,
+      "warnings": 1,
+      "notices": 1,
+      "errorDetails": [
+        {
+          "issue": "WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage",
+          "description": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.",
+          "element": "<a href=\"#\">some text</a>",
+          "severity": "WARNING",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 12
+          }
+        },
+        {
+          "issue": "WCAG2AAA.Principle2.Guideline2_4.2_4_9.H30",
+          "description": "Check that text of the link describes the purpose of the link.",
+          "element": "<a href=\"#\">some text</a>",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 1,
+            "columnNumber": 12
+          }
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "E:/personal-projects/Angular-6-Starter/src/index.html",
+      "errors": 0,
+      "warnings": 0,
+      "notices": 1,
+      "errorDetails": [
+        {
+          "issue": "WCAG2AAA.Principle2.Guideline2_4.2_4_2.H25.2",
+          "description": "Check that the title element describes the document.",
+          "element": "<title>Angular-6-Starter</title>",
+          "severity": "NOTICE",
+          "position": {
+            "lineNumber": 5,
+            "columnNumber": 2
+          }
+        }
+      ]
+    }
+  ]
+}
