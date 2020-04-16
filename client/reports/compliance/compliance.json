@@ -1,0 +1,102 @@
+{
+  "lint": {
+    "status": "Pass",
+    "comments": "All good",
+    "statistics": {
+      "count": 87
+    },
+    "executionTime": {
+      "start": "1/8/2020, 1:55:21 PM",
+      "end": "1/8/2020, 1:55:29 PM",
+      "total": 8.213
+    }
+  },
+  "test": {
+    "status": "Unsure",
+    "comments": "Could not find report file",
+    "statistics": {
+      "coverage": {
+        "statements": {
+          "percentage": 0,
+          "covered": 0,
+          "total": 0,
+          "skipped": 0
+        },
+        "branches": {
+          "percentage": 0,
+          "covered": 0,
+          "total": 0,
+          "skipped": 0
+        },
+        "functions": {
+          "percentage": 0,
+          "covered": 0,
+          "total": 0,
+          "skipped": 0
+        },
+        "lines": {
+          "percentage": 0,
+          "covered": 0,
+          "total": 0,
+          "skipped": 0
+        }
+      },
+      "summary": {
+        "success": 0,
+        "failed": 0,
+        "skipped": 0,
+        "total": 0,
+        "didNotExecute": 0
+      }
+    },
+    "executionTime": {
+      "start": "1/8/2020, 1:55:21 PM",
+      "end": "1/8/2020, 1:55:30 PM",
+      "total": 9.179
+    }
+  },
+  "jscpd": {
+    "status": "Pass",
+    "comments": "All good",
+    "statistics": {
+      "clones": 0,
+      "duplications": 0,
+      "files": 0,
+      "percentage": "0.00",
+      "lines": 1012
+    },
+    "executionTime": {
+      "start": "1/8/2020, 1:55:21 PM",
+      "end": "1/8/2020, 1:55:24 PM",
+      "total": 2.73
+    }
+  },
+  "accessibility": {
+    "status": "Pass",
+    "comments": "All good",
+    "statistics": {
+      "total": 56,
+      "errors": 1,
+      "warnings": 36,
+      "notices": 19
+    },
+    "executionTime": {
+      "start": "1/8/2020, 1:55:21 PM",
+      "end": "1/8/2020, 1:55:24 PM",
+      "total": 3.013
+    }
+  },
+  "build": {
+    "status": "Unsure",
+    "comments": "Could not find report file",
+    "statistics": {
+      "fileCount": 0,
+      "totalSize": 0
+    },
+    "executionTime": {
+      "start": "1/8/2020, 1:55:21 PM",
+      "end": "1/8/2020, 1:55:34 PM",
+      "total": 12.237
+    }
+  }
+}
